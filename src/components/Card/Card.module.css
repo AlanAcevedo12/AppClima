@@ -1,0 +1,65 @@
+#cardID {
+    background-color:#FCF3CF;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#cardID:hover {
+    background-color: #F9E79F;
+}
+
+#botonCerrar {
+    float: right;
+    margin: auto;
+    margin-right:2%;
+    margin-top:2%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #C70039;
+    border-radius: 20%;
+    border: 0;
+    color:#F9EBEA;
+    font-weight: bold;
+    text-align: center;
+}
+#botonCerrar:hover{
+    @botonCerrar();
+    background-color: #900C3F;
+}
+
+#nombreCiudad {
+    margin-top:2.4rem;
+    font-size: 1.5rem;
+}
+
+#imgClima {
+    float: right;
+    background-color: #AED6F1;
+    margin-right: 1rem;
+    border-radius: 20%;
+}
+
+.titulos {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.textos {
+    color:#2874A6;
+}
+
+#temps {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#min, #max {
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
