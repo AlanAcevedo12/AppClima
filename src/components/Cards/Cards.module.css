@@ -1,6 +1,18 @@
 #cardsDiv {
-    width: 1200px;
+    width: 85%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    background-color: #0E6655;
+    border-color: #0E6655;
+    border-radius: 2rem;
+    border-width: 30px;
+    border-style: solid;
+    margin-top: 6rem;
+}
+
+#h1Ciudades {
+    grid-column: 1 / 5;
+    margin-bottom: 1rem;
 }

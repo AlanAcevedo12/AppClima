@@ -1,0 +1,30 @@
+#navID {
+    background-color: #117A65;
+    height: 50px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#nombreApp {
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+}
+
+h1{
+    font-size: 2rem;
+    height: 2rem;
+    color:#1C2833;
+    color:#ffa07a;
+    font-weight:bolder;
+    margin: auto;
+}
+
+h1:hover{
+    @h1();
+    text-shadow: 1px 1px 20px #1C2833;
+}

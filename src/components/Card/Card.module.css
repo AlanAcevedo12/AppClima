@@ -24,7 +24,7 @@
     text-align: center;
 }
 #botonCerrar:hover{
-    @botonCerrar();
+    /*@botonCerrar();*/
     background-color: #900C3F;
 }
 
