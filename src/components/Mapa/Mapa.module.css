@@ -1,8 +1,17 @@
+@import "../../Assets/vars.css";
+
+#mapaContainer{
+    display: flex;
+    background-color: var(--color-ciudadContainerBackground);
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    height: 30rem;
+    width: 30rem;
+}
 #mapa{
-    /* border-style: solid; */
-    /* border-color: black; */
-    -webkit-box-shadow: 0px 4px 15px 0px rgba(153, 153, 153, 1);
-    -moz-box-shadow: 0px 4px 15px 0px rgba(153, 153, 153, 1);
-    box-shadow: 0px 4px 15px 0px rgba(153, 153, 153, 1);
-    /* border-radius: 1rem; */
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }

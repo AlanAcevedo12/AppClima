@@ -1,0 +1,35 @@
+:root {
+    /*BODY*/
+  --color-bodyBackground: #85929E;
+
+  /*-------------NAVBAR--------------*/
+  --color-navBackground: #2E4053;
+  --color-navTitle: #AED6F1;
+
+  /*------------SEARCHBAR-------------*/
+  --color-searchInput: #445b74;
+  --color-searchInputFocus: #34495E;
+  --color-searchText: #AED6F1;
+  --color-searchBoton: #34495E;
+  --color-searchBotonHover: #283747;
+
+  /*-----------CARDS CONTAINER-------------*/
+  --color-cardsContainerBackground: #566573;
+  --color-cardsContainerTitle: #AED6F1;
+
+  /*-----------------CARD-----------------*/
+  --color-cardBackground: #445b74;
+  --color-cardBackgroundHover: #34495E;
+  --color-cardText: #AED6F1;
+  --color-cardTextHover: #2874A6;
+  --color-cardCerrar: #283747;
+  --color-cardImgBackground: #AED6F1;
+
+  /*-------------CIUDAD-----------------*/
+  --color-ciudadContainerBackground: #34495E;
+  --color-ciudadText: #AED6F1;
+  --color-ciudadTextHover: #2874A6;
+  --color-ciudadInfoContainer: #445b74;
+  --color-ciudadImgBackground: #AED6F1;
+
+}

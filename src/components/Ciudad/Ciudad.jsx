@@ -10,8 +10,8 @@ export default function Ciudad({city}){
                 <h1 id={estilos.h1Ciudad}>{cityProp.name}</h1>
                 <div id={estilos.informacion}>
                     <div id={estilos.txtDiv} >
-                        <div id={estilos.datos}>Temperatura: {cityProp.temp} ºC</div>
-                        <div id={estilos.datos}>Sensación Térmica: {cityProp.feel} ºC</div>
+                        <div id={estilos.datos}>Temperatura: {cityProp.temp} °C</div>
+                        <div id={estilos.datos}>Sensación Térmica: {cityProp.feel} °C</div>
                         <div id={estilos.datos}>Clima: {cityProp.weather}</div>
                         <div id={estilos.datos}>Viento: {cityProp.wind} km/h</div>
                         <div id={estilos.datos}>Cantidad de nubes: {cityProp.clouds} %</div>
