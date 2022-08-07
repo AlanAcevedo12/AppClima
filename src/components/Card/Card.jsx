@@ -11,7 +11,7 @@ export default function Card(props) {
     <div id={estilos.cardID}>
         <button onClick={() => onClose(id)} id={estilos.botonCerrar}>X</button>
           <h3 id={estilos.nombreCiudad}>{name}</h3>
-        <img id={estilos.imgClima} src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="img"/>
+        <img id={estilos.imgClima} src={`https://openweathermap.org/img/wn/${img}@2x.png`} alt="img"/>
         <div id={estilos.temps}>
           <div id={estilos.max}>
             <h4 class={estilos.titulos}>Temperatura</h4>

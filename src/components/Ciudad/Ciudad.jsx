@@ -17,7 +17,7 @@ export default function Ciudad({city}){
                         <div id={estilos.datos}>Cantidad de nubes: {cityProp.clouds} %</div>
                         <div id={estilos.datos}>Humedad: {cityProp.humidity} %</div>
                     </div>
-                    <img src={`http://openweathermap.org/img/wn/${cityProp.img}@2x.png`} id={estilos.imagen} alt="img" />
+                    <img src={`https://openweathermap.org/img/wn/${cityProp.img}@2x.png`} id={estilos.imagen} alt="img" />
                 </div>
             <Link to="/" id={estilos.a}>
                 <h1 id={estilos.volver}>Volver</h1>

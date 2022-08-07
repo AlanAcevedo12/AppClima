@@ -18,7 +18,7 @@ const Mapa = ({ciudades}) => {
                 ciudades.length && ciudades.map((s, i) => {
                     return(<Marker position={s.coordenadas} key={i} 
                     icon={L.icon({
-                      iconUrl: `http://openweathermap.org/img/wn/${s.img}@2x.png`,
+                      iconUrl: `https://openweathermap.org/img/wn/${s.img}@2x.png`,
                       iconSize:     [70, 70],
                     })}>
                             <Popup>
