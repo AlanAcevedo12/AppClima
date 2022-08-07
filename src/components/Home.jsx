@@ -12,7 +12,7 @@ export default function Home(){
 
   function onSearch({ciudad}){
     if(ciudad){
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
         .then(respuesta => respuesta.json())
         .then((recurso) => {
           if(recurso.main !== undefined){
