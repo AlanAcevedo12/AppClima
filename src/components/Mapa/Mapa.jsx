@@ -13,8 +13,8 @@ const Mapa = ({ciudades}) => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            {console.log(ciudades)}
-            <LocationMarker ciudad={ciudades[ciudades.length-1]}/>
+            {/* {console.log(ciudades)} */}
+            {ciudades && <LocationMarker ciudad={ciudades[ciudades.length-1]}/>}
             {
                 ciudades.length && ciudades.map((s, i) => {
                     return(<Marker position={s.coordenadas} key={i} 
@@ -24,6 +24,10 @@ const Mapa = ({ciudades}) => {
                     })}>
                             <Popup>
                                 {s.name}
+                                <br/>
+                                {"Temperatura: " + s.temp + "°"}
+                                <br/>
+                                {"Sensación térmica: " + s.feel + "°"}
                             </Popup>
                         </Marker>)
                 })
