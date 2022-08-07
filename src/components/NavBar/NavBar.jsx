@@ -12,7 +12,10 @@ function NavBar(props){
                     <h1 className={estilos.h1}>App Clima</h1>
                 </div>
             </Link>
-            <SearchBar onSearch={props.onSearch} />
+            <div  id={estilos.searchBar}>
+                <SearchBar onSearch={props.onSearch}/>
+                {/* a */}
+            </div>
             <Link to="/About" id={estilos.a}>
                 <h1 className={estilos.h1}>About</h1>
             </Link>

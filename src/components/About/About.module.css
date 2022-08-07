@@ -42,3 +42,16 @@
     color: var(--color-ciudadTextHover);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px){
+    #contenedor {
+        width: 90%;
+        margin: auto;
+        background-color: var(--color-ciudadContainerBackground);
+        border-color: var(--color-ciudadContainerBackground);
+        /* border-radius: 2rem; */
+        border-width: 30px;
+        border-style: solid;
+        margin-top: 12rem;
+    }
+}

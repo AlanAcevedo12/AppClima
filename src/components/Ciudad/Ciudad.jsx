@@ -10,12 +10,12 @@ export default function Ciudad({city}){
                 <h1 id={estilos.h1Ciudad}>{cityProp.name}</h1>
                 <div id={estilos.informacion}>
                     <div id={estilos.txtDiv} >
-                        <div id={estilos.datos}>Temperatura: {cityProp.temp} °C</div>
-                        <div id={estilos.datos}>Sensación Térmica: {cityProp.feel} °C</div>
-                        <div id={estilos.datos}>Clima: {cityProp.weather}</div>
-                        <div id={estilos.datos}>Viento: {cityProp.wind} km/h</div>
-                        <div id={estilos.datos}>Cantidad de nubes: {cityProp.clouds} %</div>
-                        <div id={estilos.datos}>Humedad: {cityProp.humidity} %</div>
+                        <div id={estilos.datos}><span>Temperatura: </span><span>{cityProp.temp} °C</span></div>
+                        <div id={estilos.datos}><span>Sensación Térmica: </span><span>{cityProp.feel} °C</span></div>
+                        <div id={estilos.datos}><span>Clima: </span><span>{cityProp.weather}</span></div>
+                        <div id={estilos.datos}><span>Viento: </span><span>{cityProp.wind} km/h</span></div>
+                        <div id={estilos.datos}><span>Cantidad de nubes: </span><span>{cityProp.clouds} %</span></div>
+                        <div id={estilos.datos}><span>Humedad: </span><span>{cityProp.humidity} %</span></div>
                     </div>
                     <img src={`https://openweathermap.org/img/wn/${cityProp.img}@2x.png`} id={estilos.imagen} alt="img" />
                 </div>

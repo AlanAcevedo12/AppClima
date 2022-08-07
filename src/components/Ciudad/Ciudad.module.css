@@ -63,3 +63,50 @@
     color: var(--color-ciudadTextHover);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px){
+    #ciudadDiv {
+        width: 90%;
+        margin: auto;
+        background-color: var(--color-ciudadContainerBackground);
+        border-color: var(--color-ciudadContainerBackground);
+        /* border-radius: 2rem; */
+        border-width: 30px;
+        border-style: solid;
+        margin-top: 12rem;
+    }
+
+    #informacion {
+        color: var(--color-ciudadText);
+        background-color: var(--color-ciudadInfoContainer);
+        /* border-radius: 2rem; */
+        padding: 1rem;
+        font-family: principal;
+        font-weight: bold;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0px;
+    }
+    
+    #imagen {
+        background-color: #AED6F1;
+        width: 200px;
+        margin: auto;
+        grid-column: 1;
+        border-radius: 20%;
+    }
+
+    #txtDiv {
+        width: 75%;
+        margin:auto;
+        grid-column: 1;
+    }
+
+    #datos {
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

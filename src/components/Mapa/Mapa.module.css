@@ -15,3 +15,20 @@
     width: 100%;
     margin: auto;
 }
+
+@media screen and (max-width: 1024px) {
+    #mapaContainer{
+        display: flex;
+        background-color: var(--color-ciudadContainerBackground);
+        margin: auto;
+        margin-top: 2rem;
+        padding: 5vw;
+        height: 90vw;
+        width: 90vw;
+    }
+    #mapa{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
