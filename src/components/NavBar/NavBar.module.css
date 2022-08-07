@@ -1,6 +1,8 @@
+@import '../../Assets/vars.css';
+
 #navID {
-    background-color: #117A65;
-    height: 50px;
+    background-color: var(--color-navBackground);
+    height: 4rem;
     width: 100%;
     position:fixed;
     top: 0;
@@ -15,22 +17,21 @@
     display: flex;
 }
 
-h1{
+.h1{
     font-size: 2rem;
     height: 2rem;
-    color:#1C2833;
-    color:#ffa07a;
+    /* color:#1C2833; */
+    color:var(--color-navTitle);
     font-weight:bolder;
     margin: auto;
 }
 
-h1:hover{
-    @h1();
-    text-shadow: 1px 1px 20px #1C2833;
+.h1:hover{
+    cursor: pointer;
 }
 
 #a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: principal;
     font-weight: bold;
     display: block;
     text-decoration: none;
@@ -39,7 +40,7 @@ h1:hover{
 }
 
 body{
-    background-color: #A2D9CE;
+    background-color: var(--color-bodyBackground);
     width: 100%;
     height: 100%;
 }

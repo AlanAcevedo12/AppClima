@@ -6,9 +6,8 @@ import LocationMarker from './Location';
 const Mapa = ({ciudades}) => {
 
     return(
-        <div style={{display: "flex"}}>
-            <MapContainer center={[0,0]} zoom={10} scrollWheelZoom={true} style={{height:"400px", width:"400px", margin: "auto",
-        marginTop:"2rem", marginBottom:"2rem"}}  id={estilos.mapa}>
+        <div id={estilos.mapaContainer}>
+            <MapContainer center={[0,0]} zoom={10} scrollWheelZoom={true} id={estilos.mapa}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

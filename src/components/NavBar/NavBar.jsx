@@ -9,12 +9,12 @@ function NavBar(props){
         <nav id={estilos.navID}>
             <Link to="/" id={estilos.a}>
                 <div id={estilos.nombreApp}>
-                    <h1>App Clima</h1>
+                    <h1 className={estilos.h1}>App Clima</h1>
                 </div>
             </Link>
             <SearchBar onSearch={props.onSearch} />
             <Link to="/About" id={estilos.a}>
-                <h1>About</h1>
+                <h1 className={estilos.h1}>About</h1>
             </Link>
         </nav>
     );

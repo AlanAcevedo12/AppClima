@@ -23,7 +23,7 @@ export default function Card(props) {
           </div>
         </div>
         <Link to={`/ciudad/${id}`} id={estilos.link}>
-          <span class={estilos.textos} id={estilos.verMas}>Ver más detalles</span>
+          <span id={estilos.verMas}>Ver más detalles</span>
         </Link>
       </div>
 

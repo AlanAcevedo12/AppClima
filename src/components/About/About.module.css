@@ -19,7 +19,7 @@
     background-color: #FCF3CF;
     border-radius: 2rem;
     padding: 2rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: principal;
     font-weight: bold;
     display:grid;
     grid-template-columns: repeat(2, 1);

@@ -1,10 +1,10 @@
 span,h1,h4,h3,button,input,a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: principal;
     font-weight: bold;
 }
 
 body{
-    background-color: #A2D9CE;
+    background-color: #F0F3F4;
     /*background-image: url("https://www.on24.com.ar/wp-content/uploads/2021/10/Clima.gif");
     background-size: cover;*/
     width: 100%;
