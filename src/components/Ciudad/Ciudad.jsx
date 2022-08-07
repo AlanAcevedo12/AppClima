@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export default function Ciudad({city}){
     let cityProp = city[0];
-    console.log(city)
+    // console.log(city)
     return (
         <div id={estilos.ciudadDiv}>
                 <h1 id={estilos.h1Ciudad}>{cityProp.name}</h1>
