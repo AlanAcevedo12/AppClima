@@ -1,8 +1,10 @@
 #boton{
     background-color:var(--color-searchBoton);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border:none;
     color: var(--color-searchText);
+    width: 30%;
+    height: 100%;
 }
 
 #boton:hover{
@@ -19,6 +21,8 @@
     border:none;
     text-align: center;
     color: var(--color-searchText);
+    width: 65%;
+    height: 100%;
 }
 #entrada::placeholder{ 
     color: var(--color-searchText);
@@ -32,9 +36,43 @@
 }
 
 #contenedor {
-    width: 20%;
+    margin: auto;
+    width: 80%;
     height: 60%;
     display: flex;
     justify-content: space-between;
-    margin:auto 0;
+    /* background-color: red; */
+}
+
+@media screen and (max-width: 1024px) {
+    #contenedor {
+        margin: auto;
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        /* background-color: aqua; */
+    }
+
+    #entrada{
+        /* border-radius: 5px; */
+        background-color: var(--color-searchInput);
+        border:none;
+        text-align: center;
+        color: var(--color-searchText);
+        height: 3rem;
+        margin: auto;
+    }
+
+    #boton{
+        background-color:var(--color-searchBoton);
+        /* border-radius: 5px; */
+        border:none;
+        color: var(--color-searchText);
+        width: 40%;
+        height: 1.5rem;
+        margin: auto;
+        margin-top: 0.5rem;
+    }
 }

@@ -21,3 +21,27 @@
     color: var(--color-cardsContainerTitle);
     text-align: center;
 }
+
+@media screen and (max-width: 1024px){
+    #cardsDiv {
+        width: 85%;
+        margin: auto;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;
+        background-color: var(--color-cardsContainerBackground);
+        border-color: var(--color-cardsContainerBackground);
+        /* border-radius: 2rem; */
+        border-width: 30px;
+        border-style: solid;
+        margin-top: 12rem;
+    }
+
+    #h1Ciudades {
+        /* grid-column: 1 / 5; */
+        margin-bottom: 1rem;
+        text-shadow: none;
+        color: var(--color-cardsContainerTitle);
+        text-align: center;
+    }
+}
