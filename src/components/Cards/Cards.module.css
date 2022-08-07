@@ -19,4 +19,5 @@
     margin-bottom: 1rem;
     text-shadow: none;
     color: var(--color-cardsContainerTitle);
+    text-align: center;
 }
