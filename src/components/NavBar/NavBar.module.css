@@ -28,3 +28,19 @@ h1:hover{
     @h1();
     text-shadow: 1px 1px 20px #1C2833;
 }
+
+#a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    height: 2rem;
+    margin: auto;
+}
+
+body{
+    background-color: #A2D9CE;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,36 @@
+#contenedor {
+    width: 60%;
+    margin: auto;
+    background-color: #0E6655;
+    border-color: #0E6655;
+    border-radius: 2rem;
+    border-width: 30px;
+    border-style: solid;
+    margin-top: 6rem;
+}
+
+#h1Ciudad {
+    margin-bottom: 2rem;
+    text-shadow: none;
+}
+
+#informacion {
+    color: #2874A6;
+    background-color: #FCF3CF;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display:grid;
+    grid-template-columns: repeat(2, 1);
+    grid-gap: 15px;
+}
+
+#a{
+    all: unset;
+    cursor: pointer;
+}
+
+#volver {
+    margin-top: 1rem;
+}

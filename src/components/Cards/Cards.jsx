@@ -2,12 +2,13 @@ import React from 'react';
 import Card from '../Card/Card.jsx';
 import estilos from "./Cards.module.css";
 
-export default function Cards(props) {
+export default function Cards({cities, onClose}) {
   // acá va tu código
   // tip, podés usar un map
   //console.log(props);
   //console.log(array[0]);
-  let {cities, onClose} = props;
+  //let {cities, onClose} = props;
+
   if(cities){
     return (
       <div id={estilos.cardsDiv}>
@@ -17,8 +18,8 @@ export default function Cards(props) {
           key={ciudad.id}
           id={ciudad.id}
           name={ciudad.name}
-          max={ciudad.max}
-          min={ciudad.min}
+          temp={ciudad.temp}
+          feel={ciudad.feel}
           img={ciudad.img}
           onClose={onClose}
           />
