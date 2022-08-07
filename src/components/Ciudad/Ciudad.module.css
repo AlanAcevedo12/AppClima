@@ -50,11 +50,13 @@
 
 #a{
     text-decoration: none;
+    text-align: center;
 }
 
 #volver {
     margin-top: 1rem;
     color: var(--color-ciudadText);
+    text-align: center;
 }
 
 #volver:hover {

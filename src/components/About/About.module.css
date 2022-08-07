@@ -1,9 +1,9 @@
 #contenedor {
     width: 60%;
     margin: auto;
-    background-color: #0E6655;
-    border-color: #0E6655;
-    border-radius: 2rem;
+    background-color: var(--color-ciudadContainerBackground);
+    border-color: var(--color-ciudadContainerBackground);
+    /* border-radius: 2rem; */
     border-width: 30px;
     border-style: solid;
     margin-top: 6rem;
@@ -12,12 +12,13 @@
 #h1Ciudad {
     margin-bottom: 2rem;
     text-shadow: none;
+    color: var(--color-cardsContainerTitle);
 }
 
 #informacion {
-    color: #2874A6;
-    background-color: #FCF3CF;
-    border-radius: 2rem;
+    color: var(--color-cardsContainerTitle);
+    background-color: var(--color-ciudadInfoContainer);
+    /* border-radius: 2rem; */
     padding: 2rem;
     font-family: principal;
     font-weight: bold;
@@ -29,8 +30,15 @@
 #a{
     all: unset;
     cursor: pointer;
+    text-align: center;
 }
 
 #volver {
     margin-top: 1rem;
+    text-align: center;
+    color: var(--color-ciudadText);
+}
+#volver:hover {
+    color: var(--color-ciudadTextHover);
+    cursor: pointer;
 }
