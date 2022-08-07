@@ -29,6 +29,7 @@
 #a{
     all: unset;
     cursor: pointer;
+    text-align: center;
 }
 
 #volver {

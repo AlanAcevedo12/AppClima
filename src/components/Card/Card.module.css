@@ -86,6 +86,7 @@
 
 a{
     all:unset;
+    text-align: center;
 }
 
 span,h1,h4,h3,button,input{
